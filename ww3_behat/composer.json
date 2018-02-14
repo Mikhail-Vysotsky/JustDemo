@@ -1,0 +1,23 @@
+{
+  "repositories"     : {
+    "sourceforge": {
+      "type": "vcs",
+      "url": "http://git.code.sf.net/p/tcpdf/code"
+    }
+  },
+  "require": {
+    "phpunit/phpunit":"4.",
+    "behat/behat": "3.*",
+    "behat/mink-extension": "2.*",
+    "behat/mink": "1.*",
+    "behat/common-contexts": "1.*",
+    "behat/mink-bundle": "1.*",
+    "phpoffice/phpexcel": "*",
+    "behat/mink-selenium2-driver": "1.*",
+    "phpunit/phpunit-selenium": "1.*",
+    "zf1/zend-mail": "1.*",
+    "facebook/webdriver": "*",
+    "gezeresolutionsweb/selenium-server-standalone": "2.*"
+  },
+  "minimal-stability" : "stable"
+}

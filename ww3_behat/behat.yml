@@ -1,0 +1,33 @@
+default:
+    autoload:
+        '': %paths.base%/bootstrap
+    suites:
+        default:
+            contexts:
+              - AdminUsersContext
+              - AdminUsersRightContext
+              - BaseContext
+              - BonusPointsContext
+              - CategoryDisableContext
+              - DoublebetTicketContext
+              - FeatureContext
+              - LivescoreContext
+              - LimitsContext
+              - MainEventContext
+              - MobileContext
+              - MobilePagesContext
+              - MobilePaymentsContext
+              - MobileTicketContext
+              - MultiTicketContext
+              - NotCategorizedFeatureContext
+#              - PagesContext
+              - PaymentSystemContext
+              - PlayerVouchersContext
+              - SingleTicketContext
+              - StaticPagesContext
+              - SystemTicketContext
+              - TicketContext
+              - Top7Context
+              - UserAccountContext
+              - UseForPlayerContext
+              - V2ChangesContext
